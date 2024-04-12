@@ -1,6 +1,10 @@
 package twosum;
-
 import java.util.Arrays;
+
+/**
+ * twoSum
+ */
+
 
 class TwoSum{
 
