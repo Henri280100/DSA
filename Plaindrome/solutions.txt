@@ -1,0 +1,6 @@
+solution 1: convert the number to a string and reverse all of the characters
+solution 2: convert the number to a string then use two pointers
+    + Memory: 59.56
+    + runtime 134ms
+    => Slow
+solution 3: % 10

@@ -1,0 +1,25 @@
+Sol-1: merge, sort, is the length of Array odd or even
+ steps:
+    1- merge two array by using spread method.
+    2- after merged two array together, then we will sort them in order.
+    3- Then we will check if the length of the array is odd or even.
+        - if the length is odd we will return the middle element
+        - If the length is even, return the average of the two middle elements
+    -------  -------
+    1- merge two array:
+        const mergedArray = [...nums1, ...nums2]
+    2- sort the array
+        mergedArray.sort((a,b)=>a-b);
+    3- find the length of the array
+        const length = mergedArray.length
+    4- check if the array length is odd or even
+        if length % 2 !== 0
+            return mergedArray(length/2)
+        else: is even
+            return the average of the 2 middle elements
+            mid1 = mergedArray[(length/2)-1]
+            mid2 = mergedArray[(length/2)];
+            return (mid1 + mid2) / 2;
+
+Sol-2: Using binary search:
+

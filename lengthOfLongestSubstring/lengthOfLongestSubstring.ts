@@ -1,6 +1,3 @@
-
-
-
 const lengthOfLongestSubstringTS = (s: string): number => {
   let longestStr = 0;
   let set = new Set();

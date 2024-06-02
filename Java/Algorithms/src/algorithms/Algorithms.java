@@ -14,7 +14,15 @@ public class Algorithms {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // RomanToInt rti = new RomanToInt();
+        // String roman = "XIV";
+
+        // Palindrome pal = new Palindrome();
+        // int num = 9876789;
+
+        IntToRoman itr = new IntToRoman();
+        int num = 1994;
+        System.out.println(itr.intToRoman(num));
     }
-    
+
 }

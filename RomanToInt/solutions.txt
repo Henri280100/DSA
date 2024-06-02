@@ -1,0 +1,5 @@
+Sol 1: Map object
+    - Runtime: 41ms.
+Sol 1: use new Map method to iterate the key values.
+
+Sol 2: use Switch-case to check if the value is correct
